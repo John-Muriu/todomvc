@@ -42,6 +42,8 @@ describe('TodoMVC', function () {
     // https://on.cypress.io/api/visit
     cy.visit('/')
   })
+  // Cypress.on('uncaught:exception', (err, runnable) => { return false; })
+
 
   afterEach(() => {
     // In firefox, blur handlers will fire upon navigation if there is an activeElement.
